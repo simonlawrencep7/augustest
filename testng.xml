@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="AliexpressTest">
+		<groups>
+			<run>
+				<include name="Somke Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="executeTests.AliexpressTest">
+				<methods>
+					<include name="searchProduct" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
