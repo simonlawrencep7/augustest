@@ -9,7 +9,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 public class ExcelHelper {
 
-	public String dataFilePath = "/home/lsimon/output/agusta/resources/datatables/datas.xls";
+	public String dataFilePath = "./resources/datatables/datas.xls";
 	
 	FileInputStream file;
 	HSSFWorkbook workbook;
